@@ -1,0 +1,21 @@
+{
+  "name": "api-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "playtest": "npx playwright test || exit 0",
+    "sheet": "node push-to-sheet.js",
+    "test": "npm run playtest && npm run sheet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10"
+  },
+  "dependencies": {
+    "googleapis": "^118.0.0"
+  }
+}
