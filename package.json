@@ -1,7 +1,7 @@
 {
   "name": "api-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [https://www.saucedemo.com/](https://www.saucedemo.com/)",
   "main": "index.js",
   "scripts": {
     "playtest": "npx playwright test || exit 0",
@@ -16,6 +16,7 @@
     "@types/node": "^24.0.10"
   },
   "dependencies": {
+    "axios": "^1.10.0",
     "googleapis": "^118.0.0"
   }
 }

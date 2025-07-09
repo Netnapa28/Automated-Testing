@@ -28,7 +28,8 @@ export default defineConfig({
   reporter: [
     ['list'],
     ['html', { open: 'never' }],
-    ['json', { outputFile: 'test-results/e2e-test-results.json' }]
+    ['json', { outputFile: 'test-results/e2e-test-results.json' }],
+    ['./line-notify-reporter.js']
   ],
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
