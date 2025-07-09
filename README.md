@@ -1,4 +1,15 @@
-# Automated Testing with Playwright and Google Sheets Integration
+# Automated Testing with Playwright
+
+This project uses [Playwright](https://playwright.dev/) for end-to-end UI testing.  
+Test results are automatically recorded into a Google Sheet for centralized tracking.  
+Additionally, LINE notifications are sent if any test case fails, helping teams respond quickly to issues.
+
+## 🔧 Features
+
+- ✅ Automated UI testing with Playwright
+- 📊 Test result logging to Google Sheets via Google Sheets API
+- 🔔 LINE messaging integration for real-time failure alerts [https://manager.line.biz/](https://manager.line.biz/)
+
 
 ## 🌐 Tested Website
 - [https://www.saucedemo.com/](https://www.saucedemo.com/)
